@@ -3,9 +3,9 @@
 const int pinA = 8;
 const int pinB = 9;
 
-constexpr float frequency = 10; 
+constexpr float frequency = 16; 
 
-const unsigned long active_percentage = 30; 
+const unsigned long active_percentage = 45; 
 constexpr unsigned long period = 1000 / (frequency*2); 
 constexpr unsigned long active_duration = period * active_percentage/100;
 constexpr unsigned long break_duration = period - active_duration;
